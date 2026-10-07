@@ -57,8 +57,14 @@ allprojects {
 
 def moduleVersion = project.version.replace("-SNAPSHOT", "")
 
-task build {
-    dependsOn(':sap.signavio-ballerina:build')
+if (!tasks.names.contains('build')) {
+    tasks.register('build') {
+        dependsOn(':sap.signavio-ballerina:build')
+    }
+} else {
+    tasks.named('build') {
+        dependsOn(':sap.signavio-ballerina:build')
+    }
 }
 
 release {
