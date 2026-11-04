@@ -1,6 +1,8 @@
 ## Overview
 
-[SAP Signavio](https://www.signavio.com/) is SAP's business process transformation suite for modeling, analyzing, and improving business processes. The `ballerinax/sap.signavio` connector provides a unified Ballerina client for the SAP Signavio REST APIs, covering Authentication, Process Manager (Dictionary, Directory, Model, Import and Export, Search), Process Intelligence (Ingestion and SIGNAL Engine OData), Process Governance Analytics, Journey Modeler Metrics, and Process Transformation Manager (Initiatives, Assets, Insights, and Objectives). The connector is generated from a merged OpenAPI 3.0 specification of the SAP Signavio API.
+[SAP Signavio](https://www.signavio.com/) is SAP's business process transformation suite for modeling, analyzing, and improving business processes.
+
+The `ballerinax/sap.signavio` connector provides a unified Ballerina client for the SAP Signavio REST APIs, covering Authentication, Process Manager (Dictionary, Directory, Model, Import and Export, Search), Process Intelligence (Ingestion and SIGNAL Engine OData), Process Governance Analytics, Journey Modeler Metrics, and Process Transformation Manager (Initiatives, Assets, Insights, and Objectives). The connector is generated from a merged OpenAPI 3.0 specification of the SAP Signavio API.
 
 ## Setup guide
 
